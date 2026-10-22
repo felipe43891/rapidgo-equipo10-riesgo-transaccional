@@ -1,0 +1,13 @@
+{
+  "event_id": "22222222-bbbb-4ccc-8ddd-000000000002",
+  "order_id": "ORD-10501",
+  "user_id": "USR-2002",
+  "timestamp": "2026-10-22T16:12:30Z",
+  "amount": 780000,
+  "currency": "COP",
+  "payment_method": "card",
+  "device_id": "DEV-NEW-7777",
+  "location": {"city": "Medellín", "lat": 6.244, "lon": -75.581},
+  "attempt_number": 4,
+  "payment_status": "rejected"
+}

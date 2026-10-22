@@ -1,0 +1,13 @@
+{
+  "event_id": "11111111-aaaa-4bbb-8ccc-000000000001",
+  "order_id": "ORD-10500",
+  "user_id": "USR-1001",
+  "timestamp": "2026-10-22T16:10:00Z",
+  "amount": 42000,
+  "currency": "COP",
+  "payment_method": "pse",
+  "device_id": "DEV-1001",
+  "location": {"city": "Bogotá", "lat": 4.711, "lon": -74.072},
+  "attempt_number": 1,
+  "payment_status": "approved"
+}
