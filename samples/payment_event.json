@@ -1,0 +1,17 @@
+{
+  "event_id": "b7f1c6a2-3d4e-4c5a-9b8f-1a2b3c4d5e6f",
+  "order_id": "ORD-10482",
+  "user_id": "USR-2231",
+  "timestamp": "2026-10-22T15:40:12Z",
+  "amount": 185000,
+  "currency": "COP",
+  "payment_method": "card",
+  "device_id": "DEV-9981",
+  "location": {
+    "city": "Bogotá",
+    "lat": 4.711,
+    "lon": -74.072
+  },
+  "attempt_number": 3,
+  "payment_status": "rejected"
+}
