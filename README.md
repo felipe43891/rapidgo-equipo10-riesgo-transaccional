@@ -26,7 +26,7 @@ RapidGo es una plataforma de entregas. Durante los pagos y pedidos aparecen comp
 Generador de eventos (producer, Python)
         |
         v
-KAFKA  topic: rapidgo.payments.events  (key = order\\\_id, 3 particiones)
+KAFKA  topic: rapidgo.payments.events  (key = order_id, 3 particiones)
         |
         v
 SPARK STRUCTURED STREAMING  (parseo, transformaciones, ventanas, alertas)
@@ -59,7 +59,7 @@ Transversal: Docker + Git + GitHub + Kanban + GitHub Actions + Releases.
 ## Evento, KPIs y alertas
 
 * Contrato del evento: [`docs/contrato-evento.md`](docs/contrato-evento.md)
-* Evento de ejemplo: [`samples/payment\\\_event.json`](samples/payment_event.json)
+* Evento de ejemplo: [`samples/payment_event.json`](samples/payment_event.json)
 * KPIs y reglas de alerta: [`docs/reglas-kpis-alertas.md`](docs/reglas-kpis-alertas.md)
 
 **KPIs:** intentos por pedido · valor promedio · eventos de riesgo.

@@ -4,7 +4,7 @@
 
 ## Decisión más importante
 
-Usar `order\\\\\\\_id` como key del topic `rapidgo.payments.events` con 3 particiones, para garantizar el orden de los eventos por pedido y calcular correctamente los intentos de pago. Detalle en [ADR-001](../decisions/ADR-001-key-particiones-kafka.md).
+Usar `order_id` como key del topic `rapidgo.payments.events` con 3 particiones, para garantizar el orden de los eventos por pedido y calcular correctamente los intentos de pago. Detalle en [ADR-001](../decisions/ADR-001-key-particiones-kafka.md).
 
 ## Riesgo principal
 
