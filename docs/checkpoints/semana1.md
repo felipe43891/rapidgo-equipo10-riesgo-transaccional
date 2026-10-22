@@ -4,7 +4,7 @@
 
 ## Decisión más importante
 
-Usar `order_id` como key del topic `rapidgo.payments.events` con 3 particiones, para garantizar el orden de los eventos por pedido y calcular correctamente los intentos de pago. Detalle en [ADR-001](../decisions/ADR-001-key-particiones-kafka.md).
+Usar `order\\\\\\\_id` como key del topic `rapidgo.payments.events` con 3 particiones, para garantizar el orden de los eventos por pedido y calcular correctamente los intentos de pago. Detalle en [ADR-001](../decisions/ADR-001-key-particiones-kafka.md).
 
 ## Riesgo principal
 
@@ -14,11 +14,12 @@ Integrar Kafka, Spark y el Data Lake en la Semana 2 puede tomar más tiempo del 
 
 | Tarea | Responsable | Issue |
 |---|---|---|
-| Producer funcional | _completar_ | #_ |
-| Kafka con key y particiones | _completar_ | #_ |
-| Spark Streaming con 3 transformaciones y ventana | _completar_ | #_ |
-| Persistencia Parquet y checkpoint | _completar_ | #_ |
-| Pruebas y `ci.yml` | _completar_ | #_ |
-| ADR-002 y checkpoint semana 2 | _completar_ | #_ |
+| Producer funcional | Julian | #7 |
+| Kafka con key y particiones | Daniela | #8 |
+| Spark Streaming con 3 transformaciones y ventana | Julian | #9 |
+| Persistencia Parquet y checkpoint | Carlos | #10 |
+| Pruebas y `ci.yml` | Carlos | #11 |
+| ADR-002 y checkpoint semana 2 | Todos | (crear Issue si quieren) |
 
 Cada integrante entrega al menos un PR sustancial y revisa el de otro compañero.
+
