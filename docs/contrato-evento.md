@@ -15,6 +15,7 @@ Topic: `rapidgo.payments.events` · Key: `order_id` · Formato: JSON (UTF-8)
 | `location` | object | Sí | `{ city: string, lat: number, lon: number }` |
 | `attempt_number` | integer | Sí | Número de intento de pago, mayor o igual a 1 |
 | `payment_status` | string (enum) | Sí | `approved`, `rejected`, `pending` |
+| `team_id` | string | Sí | Identifica al equipo que genera el evento (equipo-10) |
 
 Ejemplo: [`../samples/payment_event.json`](../samples/payment_event.json)
 
