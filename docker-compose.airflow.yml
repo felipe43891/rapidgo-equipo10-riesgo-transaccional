@@ -1,0 +1,19 @@
+# Airflow local para el DAG rapidgo_riesgo_transaccional (solo demo, SQLite).
+# Uso:  docker compose -f docker-compose.airflow.yml up -d
+services:
+  airflow:
+    image: apache/airflow:2.9.3
+    container_name: rapidgo-airflow
+    command: standalone
+    ports:
+      - "8080:8080"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "false"
+      _PIP_ADDITIONAL_REQUIREMENTS: "pandas pyarrow"
+      RAPIDGO_LAKE: /opt/airflow/datalake
+      RAPIDGO_SPARK_DIR: /opt/airflow/spark
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./spark:/opt/airflow/spark
+      - ./datalake:/opt/airflow/datalake
