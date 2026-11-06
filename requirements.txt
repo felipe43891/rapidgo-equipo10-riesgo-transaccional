@@ -1,3 +1,4 @@
 kafka-python-ng==2.2.3
 pytest==8.2.0
-jsonschema==4.22.0
+jsonschema==4.22.0pandas
+pyarrow
