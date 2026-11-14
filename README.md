@@ -265,6 +265,6 @@ docker-compose.airflow.yml   Airflow
 * Kafka con un solo broker y replication factor 1; Airflow en modo `standalone` con SQLite, solo para demostración.
 * Trabajo futuro: ejecutar el DAG de forma programada, enviar las alertas a un canal de notificación y desplegar en un entorno con más brokers.
 
-## Video final
+## [Video final](https://youtu.be/y7ZX99DFeYE)
 
 *Enlace pendiente.*
