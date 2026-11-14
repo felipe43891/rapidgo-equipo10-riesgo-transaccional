@@ -267,4 +267,4 @@ docker-compose.airflow.yml   Airflow
 
 ## [Video final](https://youtu.be/y7ZX99DFeYE)
 
-*Enlace pendiente.*
+*(https://youtu.be/y7ZX99DFeYE)*
